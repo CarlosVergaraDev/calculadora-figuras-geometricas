@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Figuras Geométricas</title>
+    
+    <!-- Enlace a la hoja de estilos CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts Bitcount-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Bitcount:wght@100..900&family=Revalia&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Enlace a Iconos Font Awesome -->
+    <script src="https://kit.fontawesome.com/42774e4b93.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="/public/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/public/site.webmanifest">
+
+    <!-- Carga model-viewer -->
+   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+     
+</head>
+<body>
+
+  <model-viewer 
+    src="https://file.garden/aIqLSPLv1wfBghwk/90s_-_00s_pc.glb"
+    alt="PC retro"
+    auto-rotate
+    camera-controls
+    exposure="1"
+    shadow-intensity="1"
+    camera-orbit="290deg 70deg 20m"
+    min-camera-orbit="20 auto 25m"
+    max-camera-orbit="20 auto 25m"      
+    field-of-view="30deg"                
+    style="width: 100%; height: 330px; background-color: transparent;">
+  </model-viewer>
+
+    <h1>🧮​ Calculadora Geométrica Dinámica</h1>
+    <p>👇 Selecciona una figura para comenzar.</p>
+
+    <!-- Todo el contenido de la calculadora se generará dentro de este div -->
+    <div id="contenedor-calculadora"></div>
+
+    </div>
+
+    <footer> 
+        
+        <div class="info-proyecto" > <p> SENA - Evidencia: GA3-220501093-AA3-EV02 </p> <a href="" target="_blank">README.md</a> </div>
+        <div class="desarrollador"> <p>Desarrollado por: Carlos Vergara</p>  <a href="" target="_blank"> <i class="fa-brands fa-github"> </i> </a> </div>   
+
+    </footer>
+    <!-- Enlace al archivo JavaScript -->
+    <script src="js/script.js" defer></script>
+
+</body>
+</html>

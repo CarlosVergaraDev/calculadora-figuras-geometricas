@@ -1,0 +1,161 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #010801;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+h1 {
+  font-family: "Bitcount", system-ui;
+  color: #ececec;
+  font-weight: 300;
+  text-align: center;
+}
+
+p{
+  color: #e9ecef;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+}
+
+#contenedor-calculadora {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  min-height: 250px;
+  transition: all 0.3s ease;
+
+  font-family: "Roboto Mono", monospace;
+  font-size: 12; 
+}
+
+/* Estilos para los elementos que crearemos con JS */
+select, button, input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Importante para que el padding no afecte el ancho */
+  
+  font-family: "Roboto Mono", monospace;
+}
+
+button {
+  background-color: #217500;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #070707;
+}
+
+label {
+  margin-top: 15px;
+  display: block;
+  font-weight: bold;
+  color: #555;
+
+  font-size: 12px;
+}
+
+.grupo-radios {
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  
+  font-family: "Roboto Mono", monospace;
+}
+
+.grupo-radios label {
+  font-weight: normal;
+  display: inline;
+  margin-right: 15px;
+}
+
+/* Selector escpecia para ahorrarnos unas lineas de css  */
+.grupo-radios input[type="radio"] {
+  width: auto;
+  background-color: #217500;
+}
+
+#resultado {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  color: #222222;
+  border: 1px solid #c3e6cb;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+
+footer >div :nth-child(2){
+  display: flex;
+  color: #c3e6cb;
+  padding-left: 2rem;
+}
+
+footer >div :nth-child(2):hover {
+  color:#ffffff;
+  transition: color 0.3s ease;
+
+}
+
+
+.info-proyecto{
+ color: rgb(211, 211, 211);
+ display: flex;
+ align-items: center;
+}
+
+
+.desarrollador{ 
+  display: flex;
+  align-items: center;
+}
+
+.desarrollador >a{
+  text-decoration: none;
+}
+
+.fa-github {
+  color:  #c3e6cb;
+  font-size: 1.2rem;
+}
+
+.fa-github:hover{
+  color:#ffffff;
+  transition: color 0.3s ease;
+}
+
+/* Desarrollado por Carlos Vergara*/
