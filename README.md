@@ -53,15 +53,14 @@ Se evita el uso de `innerHTML`. Se construyen elementos HTML de forma segura par
 ## 📁 Estructura del Proyecto
 
 ```bash
-1.GA3-220501093-AA3-EV02/
+
 ├── README.md
-└── public/
+└── docs/
     ├── index.html
     ├── css/
     │   └── style.css
     ├── js/
     │   └── script.js
-    ├── img/                    # (opcional para imágenes futuras)
     ├── favicon.ico
     ├── favicon-32x32.png
     ├── favicon-16x16.png
