@@ -69,23 +69,5 @@ Se evita el uso de `innerHTML`. Se construyen elementos HTML de forma segura par
 
 ---
 
-✅ **Nota:** `index.html` debe estar dentro de `/public/` si se despliega en plataformas como **Vercel**.  
-Los favicons pueden ir directamente en `public/` para rutas absolutas (`/favicon.ico`).
-
----
-
-## 🚀 Cómo Ejecutar Localmente
-
-Clona este repositorio:
-
-```bash
-git clone https://github.com/tuusuario/tu-repo.git
-cd tu-repo
-
-Abre el archivo public/index.html en tu navegador preferido.
-
-⚠️ No se requiere servidor ni bundler: todo corre directamente en navegador.
-
-👨‍💻 Autor
+## 👨‍💻 Autor
 Desarrollado por Carlos Vergara.
-Proyecto educativo basado en fundamentos de manipulación del DOM, cálculo matemático y diseño modular.
